@@ -1,0 +1,13 @@
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+*.log
+.idea
+*.iml

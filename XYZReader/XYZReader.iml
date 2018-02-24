@@ -22,7 +22,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/debug" />
     <exclude-output />
@@ -104,25 +104,26 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="com.android.support:support-v13-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.3.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v13-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.4.0" level="project" />
     <orderEntry type="library" name="__local_aars__:/Users/vinicius.rocha/UDACITY/Make-Your-App-Material/XYZReader/libs/volley.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-utils-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:appcompat-v7-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:cardview-v7-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-compat-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-ui-25.3.0" level="project" />
+    <orderEntry type="library" name="com.android.support:design-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:transition-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:cardview-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-ui-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:appcompat-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-compat-25.4.0" level="project" />
     <orderEntry type="library" name="com.squareup.okio:okio:1.6.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-annotations:25.3.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-media-compat-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:palette-v7-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-vector-drawable-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-fragment-25.3.0" level="project" />
-    <orderEntry type="library" name="com.android.support:recyclerview-v7-25.3.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-annotations:25.4.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-utils-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-vector-drawable-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:palette-v7-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-fragment-25.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support:recyclerview-v7-25.4.0" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.1.2@jar" level="project" />
-    <orderEntry type="library" name="android-android-25" level="project" />
+    <orderEntry type="library" name="com.android.support:support-media-compat-25.4.0" level="project" />
   </component>
 </module>

@@ -15,7 +15,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.TooManyListenersException;
 
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
@@ -100,6 +99,7 @@ public class ArticleDetailFragment extends Fragment implements
                 R.dimen.detail_card_top_margin);
         setHasOptionsMenu(true);
     }
+
 
     public ArticleDetailActivity getActivityCast() {
         return (ArticleDetailActivity) getActivity();
@@ -256,19 +256,13 @@ public class ArticleDetailFragment extends Fragment implements
 
                         }
                     });
-
-            ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-            ActionBar actionBar = ((AppCompatActivity)getActivity()).getSupportActionBar();
-            if (actionBar != null) {
-                actionBar.setHomeButtonEnabled(true);
-                actionBar.setDisplayHomeAsUpEnabled(true);
-            }
         } else {
             mRootView.setVisibility(View.GONE);
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
     }
+
 
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
@@ -299,5 +293,7 @@ public class ArticleDetailFragment extends Fragment implements
         mCursor = null;
         bindViews();
     }
+
+
 
 }

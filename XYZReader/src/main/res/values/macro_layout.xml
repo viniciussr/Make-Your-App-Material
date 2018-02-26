@@ -23,6 +23,8 @@
     <dimen name="detail_body_bottom_margin">88dp</dimen>
     <dimen name="detail_title">350dp</dimen>
     <dimen name="detail_title_margin">40dp</dimen>
+    <dimen name="detail_title_margin_top">40dp</dimen>
+    <dimen name="detail_toolbar_margin_top">5dp</dimen>
 
 
 </resources>

@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:expandedTitleMarginBottom="@dimen/detail_title_margin"
-            app:layout_scrollFlags="scroll">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:id="@+id/photo"
@@ -50,7 +50,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/detail_metabar_title_bottom_padding"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/detail_title_margin_top"/>
             </LinearLayout>
 
             <android.support.v7.widget.Toolbar
@@ -60,7 +61,9 @@
                 app:elevation="@dimen/toolbar_elevation"
                 app:layout_collapseMode="pin"
                 android:paddingTop="@dimen/detail_metabar_vert_padding"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+                android:layout_marginTop="@dimen/detail_toolbar_margin_top"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                />
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
